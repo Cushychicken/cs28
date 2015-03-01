@@ -1,0 +1,73 @@
+Script started on Sat 14 Feb 2015 03:38:56 PM EST
+nashreilly@ice3:~/cs28/loginhist$ rm typescript.lastlogin ./lastlogin -f ~/cs28/helpers/files/wtmp.big thhurman[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pscript typescript.lastlogin
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./lastlogin ~/cs28/helpers/files/wtmp.big thurmman[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/cs28/helpers/files/dumputmp ~/cs28/helpers/files/wtmp.big | grep USER_PROCESS | tail -n 25
+irwin    s/26 pts/26    38539    7 USER_PROCESS     1423202979 [Mar 12 17:45:55]10.239.20.103
+austin   ts/4 pts/4     39481    7 USER_PROCESS     1423203277 [Sep 30 01:08:13]10.176.24.101
+dwight   s/28 pts/28    42344    7 USER_PROCESS     1423203845 [Apr 15 22:50:29]10.213.33.94
+thurman  s/34 pts/34    43087    7 USER_PROCESS     1423204020 [May  8 01:54:44]10.131.62.104
+irwin    s/38 pts/38    43892    7 USER_PROCESS     1423204291 [Aug 28 09:37:55]10.180.29.95
+edith    s/45 pts/45    43831    7 USER_PROCESS     1423204300 [Apr  1 05:18:04]10.201.32.108
+thurman  s/45 pts/45    45906    7 USER_PROCESS     1423204752 [Feb 15 19:17:20]10.124.63.109
+douglas  s/46 pts/46    45889    7 USER_PROCESS     1423204756 [Nov 24 03:02:28]10.217.66.106
+leora    s/47 pts/47    46133    7 USER_PROCESS     1423204774 [Nov 18 08:39:50]10.8.68.92
+dee      ts/3 pts/3     50267    7 USER_PROCESS     1423205609 [Aug 29 04:54:49]10.144.54.108
+flossie  s/12 pts/12    51065    7 USER_PROCESS     1423205654 [May 22 20:32:06]10.174.30.103
+almeda   s/32 pts/32    51166    7 USER_PROCESS     1423205665 [Mar 20 19:13:21]10.67.20.107
+claude   s/34 pts/34    51243    7 USER_PROCESS     1423205687 [Apr 25 00:35:51]10.23.57.92
+thurman  s/34 pts/34    51585    7 USER_PROCESS     1423205777 [Aug  8 17:28:33]10.121.42.99
+roy      s/53 pts/53    52574    7 USER_PROCESS     1423206135 [Jun 25 18:32:07]10.162.68.99
+almeda   s/32 pts/32    54549    7 USER_PROCESS     1423206383 [Nov 10 09:49:19]10.34.36.106
+jeannett s/20 pts/20    59017    7 USER_PROCESS     1423207640 [Aug 28 16:38:32]10.89.31.91
+jonathan s/28 pts/28    60441    7 USER_PROCESS     1423207924 [Oct 16 14:54:28]10.85.33.104
+ollie    s/14 pts/14    61725    7 USER_PROCESS     1423208243 [Dec 27 16:48:35]10.15.36.94
+minnie   s/25 pts/25    61598    7 USER_PROCESS     1423208258 [Jan 28 11:58:42]10.65.39.94
+fay      s/28 pts/28    63221    7 USER_PROCESS     1423208607 [Sep 21 23:29:19]10.163.40.108
+marcus   s/32 pts/32    64430    7 USER_PROCESS     1423208778 [Jul 27 13:39:06]10.157.37.95
+leora    ts/3 pts/3     17648    7 USER_PROCESS     1423210247 [Sep 26 02:13:11]10.174.36.105
+abner    ts/4 pts/4     18908    7 USER_PROCESS     1423210849 [Jun  8 23:53:53]10.128.31.104
+van      ts/4 pts/4     24427    7 USER_PROCESS     1423214005 [Jan 13 19:30:45]10.95.36.103
+nashreilly@ice3:~/cs28/loginhist$ ~/cs28/helpers/files/dumputmp ~/cs28/helpers/fiiles/wtmp.big | grep USER_PROCESS | tail -n 25[A[22Prm typescript.lastlogin 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./lastlogin -f ~/cs28/helpers/files/wtmp.big thhurman
+thurman  pts/34       Feb  6 01:56 (10.121.42.99)
+nashreilly@ice3:~/cs28/loginhist$ exit
+exit
+
+Script done on Sat 14 Feb 2015 03:39:11 PM EST
+Script started on Sat 14 Feb 2015 03:41:10 PM EST
+nashreilly@ice3:~/cs28/loginhist$ ./whodate 2015 2 11
+cs124    pts/2        Feb 11 00:24 (209-6-231-83.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+nashreilly pts/1        Feb 11 02:34 (209-6-206-196.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+nashreilly pts/2        Feb 11 02:34 (209-6-206-196.c3-0.smr-ubr2.sbo-smr.ma.cable.rcn.com)
+moon02   pts/1        Feb 11 08:40 (63.248.248.80)
+milosongweiss pts/2        Feb 11 09:05 (209-6-48-122.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com)
+mfount   pts/3        Feb 11 09:06 (65.112.11.39)
+tsu      pts/1        Feb 11 11:01 (c-73-47-232-75.hsd1.ma.comcast.net)
+trevorsimpkin pts/1        Feb 11 11:32 (mobile-166-171-186-178.mycingular.net)
+trevorsimpkin pts/1        Feb 11 13:00 (mobile-166-171-186-178.mycingular.net)
+trevorsimpkin pts/1        Feb 11 13:00 (mobile-166-171-186-178.mycingular.net)
+ondiege01 pts/1        Feb 11 13:21 (dhcp-140-247-196-226.fas.harvard.edu)
+jdietrich pts/2        Feb 11 13:34 (nwl-b127-m03.fas.harvard.edu)
+dylanmunro pts/2        Feb 11 16:04 (65.112.10.61)
+domr     pts/1        Feb 11 16:37 (hal.unix.fas.harvard.edu)
+jjackson pts/1        Feb 11 17:15 (65.112.11.59)
+esantelmann pts/3        Feb 11 17:21 (65.112.10.61)
+trevorsimpkin pts/4        Feb 11 17:25 (ool-44c25b83.dyn.optonline.net)
+ekloster pts/5        Feb 11 17:33 (72.246.0.243)
+yuleixia pts/6        Feb 11 17:35 (65.112.11.49)
+mconroy  pts/7        Feb 11 17:39 (c-76-28-101-64.hsd1.ct.comcast.net)
+trevorsimpkin pts/4        Feb 11 18:08 (ool-44c25b83.dyn.optonline.net)
+slavin   pts/1        Feb 11 19:25 (pool-108-53-135-211.nwrknj.fios.verizon.net)
+cscie66  pts/1        Feb 11 19:35 (65.112.11.54)
+dweiner  pts/2        Feb 11 20:02 (c-76-118-161-77.hsd1.ma.comcast.net)
+mhelly   pts/3        Feb 11 20:17 (c-71-232-28-41.hsd1.ma.comcast.net)
+jeffreymills pts/3        Feb 11 20:31 (74-194-248-185.tyrccmta02.res.dyn.suddenlink.net)
+amartinson pts/4        Feb 11 20:32 (cpe-72-179-2-73.austin.res.rr.com)
+jeffreymills pts/3        Feb 11 20:40 (74-194-248-185.tyrccmta02.res.dyn.suddenlink.net)
+dweiner  pts/2        Feb 11 21:15 (c-76-118-161-77.hsd1.ma.comcast.net)
+moon02   pts/1        Feb 11 22:11 (63.248.248.80)
+jamescmacdonald pts/3        Feb 11 22:20 (pool-108-49-39-35.bstnma.fios.verizon.net)
+cscie66  pts/2        Feb 11 22:51 (pool-173-48-253-207.bstnma.fios.verizon.net)
+nashreilly@ice3:~/cs28/loginhist$ s[Kexit
+exit
+
+Script done on Sat 14 Feb 2015 03:41:24 PM EST

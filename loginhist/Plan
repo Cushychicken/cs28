@@ -1,0 +1,86 @@
+Project: lastlogin 
+
+Purpose: To show the last login from a user recorded in either the system 
+	wtmp file, or a target wtmp file if supplied. 
+
+Outline:
+	The program reads a set number of utmp records from wtmp, searches 
+	through the records for a username matching the one supplied as a 
+	command line argument, and prints the utmp record to stdout if 
+	found. Returns no output if none found for that username. 
+
+Output:
+	The output looks like:
+        username, tty, datetime (Mon d HH:mm), host
+
+Arguments:
+	Required:
+		* Username to search wtmp records for (command line)
+
+	Optional:
+		* "-f <fname>" : Alternate file target of wtmp 
+
+Input:
+	lastlogin only accepts command line arguments. It requires no 
+	additional input at runtime. 
+
+Example: 
+	lastlogin username 
+
+	lastlogin username -f wtmp.file
+
+	lastlogin -f wtmp.file username
+
+Data Structures:
+        lastlogin utilizes a buffer defined in "utmplib.c" to access all
+	wtmp records. All calls to the buffer are made by reference. 
+
+Files:
+        lastlogin reads a file of utmp records.  See Arguments and Input
+        sections above.
+
+==============================================================================
+
+Project: whodate 
+
+Purpose: To show all user logins on a specified date. 
+
+Outline:
+	The program reads a set number of utmp records from wtmp, searches 
+	through the records' epoch timestamps for a timestamp greater than 
+	the epoch time of the day in question, and prints all records from 
+	the epoch day. 
+
+Output:
+	The output looks like:
+        username, tty, datetime (Mon d HH:mm), host
+
+Arguments:
+	Required:
+		* Login Year 	 (YYYY format)
+		* Login Month 	 (MM format)
+		* Login Day	 (d/DD format)
+		 
+
+	Optional:
+		* "-f <fname>" : Alternate file target of wtmp 
+			(defaults to system wtmp file)
+
+Input:
+	whodate only accepts command line arguments. It requires no 
+	additional input at runtime. 
+
+Example: 
+	whodate 2011 12 16
+
+	whodate -f wtmp.file 2012 4 20
+
+	whodate 2001 9 11 -f wtmp.file
+
+Data Structures:
+        whodate utilizes a buffer defined in "utmplib.c" to access all
+	wtmp records. All calls to the buffer are made by reference. 
+
+Files:
+        whodate reads a file of utmp records.  See Arguments and Input
+        sections above.
